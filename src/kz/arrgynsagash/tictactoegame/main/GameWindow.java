@@ -17,8 +17,8 @@ public class GameWindow extends JFrame {
     GameWindow() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(WIN_WIDTH, WIN_HEIGHT);
-        //setLocation(WIN_POSX,WIN_POSY);
-        setLocationRelativeTo(null);//align window to center
+        setLocation(WIN_POSX,WIN_POSY);
+        //setLocationRelativeTo(null);//align window to center
         setTitle("TicTacToe");
         JButton btnStartGame = new JButton("Start new game");
         JButton btnExit = new JButton("Exit");
